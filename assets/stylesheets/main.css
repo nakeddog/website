@@ -1,0 +1,46 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  min-width: 800px;
+}
+
+nav {
+  padding-left: 100px;
+}
+
+.company-title {
+  display: inline-block;
+  font-size: 28px;
+  margin-left: 15px;
+  vertical-align: middle;
+
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.nav-logo {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.content {
+  margin-top: 200px;
+}
