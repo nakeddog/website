@@ -5,94 +5,180 @@
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
+
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <img class="nav-logo" src="assets/images/tnd-black-logo.png" />
-        <div class="company-title">The Naked Dog</div>
-        <ul>
-          <li><a class="" href="#">Home</a></li>
-          <li><a class="" href="#about">About</a></li>
-          <li><a class="" href="#testimonials">Testimonials</a></li>
-        </ul>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand pt-0" href="#">
+            <img src="assets/images/tnd-black-logo.png" width="50" height="50" class="brand-logo align-top" alt="">
+          </a>
+          <a class="navbar-brand" href="#">
+            The Naked Dog
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rates">Rates</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <div class="content container">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="banner" src="assets/images/dog-lineup-bench-banner.jpg" />
+        </div>
+        <!-- <div>
+             <a>More photos</a>
+             </div> -->
+      </div>
       <section class="row">
-        <div class="row">
-          <div class="col-lg-12">
-            <img class="banner" src="assets/images/dog-lineup-bench-banner.jpg" />
+        <div class="col-md-12">
+          <a class="anchor" id="services"></a>
+          <h1>Services</h1>
+          <p>
+            The Naked Dog combines training, exercise and socialization to create a healthy, balanced dog.
+            I offer off-leash hiking, in-home boarding and holistic training that makes your dog the best pet he or she can be!
+          </p>
+          <h2>Hiking</h2>
+          <p>For the daily off-leash hiking service, I pick the dog up at your home, take them on a 1.5-2 hour hike, then drop them off at home, happy and tired.</p>
+          <h2>Boarding</h2>
+          <p>
+            For boarding, I offer board and train or regular boarding in my home with a limited number of dogs at a time. The dogs get training brush-ups, daily hiking adventures and all the care, love and attention they are used to at home!
+          </p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-12">
+          <a class="anchor" id="about"></a>
+          <h1>About The Naked Dog</h1>
+
+          <h3>About</h3>
+          <p>
+            Established in 2013.
+            A long time practitioner of Natural Horsemanship, I sought to connect with dogs in a way that didn't involve treats or gimmicks, but instead worked with their innate psychology to produce the desired result.
+            I firmly believe that regular exercise, strong leadership and proper nutrition are the key factors to having a long and happy relationship with your dog.
+          </p>
+
+          <h3>Meet the Business Owner</h3>
+          <p>
+            Allegra K.
+            Business Owner
+            A lifelong love of animals and several years of dog training led me to open The Naked Dog. What sets The Naked Dog apart from other training programs is that the training happens in a real world setting- out on the trails-  and gets reinforced every time your dog comes out on a hike with me.
+            In addition to the structure of working with a trainer, my hikes provide daily exercise, socialization and dogs learn from the good example of the already trained dogs in the group.
+            This is a dream job for me and I am ecstatic to be getting such positive reviews from my clients.
+          </p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-12">
+          <a class="anchor" id="rates"></a>
+          <h1>Rates</h1>
+          <p>For detailed rate information, contact us today!</p>
+          <i class="fa fa-phone"></i>
+          <a class="contact-phone" href="tel:1-512-623-0932">(512) 623-0932</a>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-12">
+          <a class="anchor" id="testimonials"></a>
+          <h1>Testimonials</h1>
+          <div>
+            <blockquote>
+              <p>Through the process of spending time with Allegra and her pack, our puppy has acquired great-off leash skills so that we now feel confident taking her on hikes ourselves.</p>
+              <footer>Audrey C. </footer>
+            </blockquote>
+
+            <blockquote>
+              <p>Allegra has cared for both of our Weimers and always went above and beyond. She gets to know your pet, finds where they need improvement/growth, and works with them to make sure they are 10X better the day you pick them up from the day you dropped them off. Consistently reporting on how they are doing on a daily basis (if you wish), sending tons of pictures, and keeps you posted on any concerns. She makes our pups feel like they are home. In fact, our dogs come home missing Allegra and can't wait to see her again.</p>
+              <footer>Cara K.</footer>
+            </blockquote>
+
+            <blockquote>
+              <p>She took her time. Gave great advice on everything a new puppy owner could want to know - housebreaking, feeding, getting them to listen, stop biting & jumping, how to walk on leash, socialize with bigger dogs in a healthy way, learning the psychology of dogs and what they need to feel secure & know that I'm their leader, fun tricks for pups, and much more. And she didn't leave until all my questions were answered and I felt comfortable.</p>
+              <footer>Sara G</footer>
+            </blockquote>
+
+            <blockquote>
+              <p>Hands down the best thing you could do for your dog and your own peace of mind. The Naked Dog is a thousand times better than any other day care or training/boarding service. Not only are the dogs stimulated by exploring new environments and smells but they are experiencing everything as a part of a pack.</p>
+              <footer>Lori W.</footer>
+            </blockquote>
+
+            <blockquote>
+              <p>Allegra's dedication and care for each dog, the competitive pricing, and the frame-worthy photos that I look forward to getting every day makes The Naked Dog deserve so many more than 5 stars.</p>
+              <footer>Mark W.</footer>
+            </blockquote>
+          </div>
+          <div class="review-link">
+            For more testimonials and reviews,
+            <a href="https://www.yelp.com/biz/the-naked-dog-hiking-boarding-and-training-austin""https://www.yelp.com/biz/the-naked-dog-hiking-boarding-and-training-austin">
+              visit us on Yelp!
+            </a>
           </div>
         </div>
       </section>
 
       <section class="row">
-        <a class="anchor" id="about"></a>
-        <h1>About</h1>
-
-        Specialties
-
-        The Naked Dog combines training, exercise and socialization to create a healthy, balanced dog.
-
-        I offer off-leash hiking, in-home boarding and holistic training that makes your dog the best pet he or she can be!
-
-        For the daily off-leash hiking service, I pick the dog up at your home, take them on a 1.5-2 hour hike, then drop them off at home, happy and tired.
-
-        For boarding, I offer board and train or regular boarding in my home with a limited number of dogs at a time. The dogs get training brush-ups, daily hiking adventures and all the care, love and attention they are used to at home!
-
-        History
-
-        Established in 2013.
-
-        A long time practitioner of Natural Horsemanship, I sought to connect with dogs in a way that didn't involve treats or gimmicks, but instead worked with their innate psychology to produce the desired result.
-
-        I firmly believe that regular exercise, strong leadership and proper nutrition are the key factors to having a long and happy relationship with your dog.
-
-        Meet the Business Owner
-
-        Allegra K.
-        Business Owner
-        A lifelong love of animals and several years of dog training led me to open The Naked Dog. What sets The Naked Dog apart from other training programs is that the training happens in a real world setting- out on the trails-  and gets reinforced every time your dog comes out on a hike with me.
-
-        In addition to the structure of working with a trainer, my hikes provide daily exercise, socialization and dogs learn from the good example of the already trained dogs in the group.
-
-        This is a dream job for me and I am ecstatic to be getting such positive reviews from my clients.
-      </section>
-
-      <section class="row">
-        <a class="anchor" id="testimonials"></a>
-        <h1>Testimonials</h1>
-        <div>
-          <blockquote>
-            <p>Through the process of spending time with Allegra and her pack, our puppy has acquired great-off leash skills so that we now feel confident taking her on hikes ourselves.</p>
-            <footer>Audrey C. </footer>
-          </blockquote>
-
-          <blockquote>
-            <p>Allegra has cared for both of our Weimers and always went above and beyond. She gets to know your pet, finds where they need improvement/growth, and works with them to make sure they are 10X better the day you pick them up from the day you dropped them off. Consistently reporting on how they are doing on a daily basis (if you wish), sending tons of pictures, and keeps you posted on any concerns. She makes our pups feel like they are home. In fact, our dogs come home missing Allegra and can't wait to see her again.</p>
-            <footer>Cara K.</footer>
-          </blockquote>
-
-          <blockquote>
-            <p>She took her time. Gave great advice on everything a new puppy owner could want to know - housebreaking, feeding, getting them to listen, stop biting & jumping, how to walk on leash, socialize with bigger dogs in a healthy way, learning the psychology of dogs and what they need to feel secure & know that I'm their leader, fun tricks for pups, and much more. And she didn't leave until all my questions were answered and I felt comfortable.</p>
-            <footer>Sara G</footer>
-          </blockquote>
-
-          <blockquote>
-            <p>Hands down the best thing you could do for your dog and your own peace of mind. The Naked Dog is a thousand times better than any other day care or training/boarding service. Not only are the dogs stimulated by exploring new environments and smells but they are experiencing everything as a part of a pack.</p>
-            <footer>Lori W.</footer>
-          </blockquote>
-
-          <blockquote>
-            <p>Allegra's dedication and care for each dog, the competitive pricing, and the frame-worthy photos that I look forward to getting every day makes The Naked Dog deserve so many more than 5 stars.</p>
-            <footer>Mark W.</footer>
-          </blockquote>
+        <div class="col-md-12">
+          <a class="anchor" id="contact"></a>
+          <h1 class="text-center">Get in touch with us!</h1>
+          <a href="https://www.instagram.com/thenakeddog">
+            <div class="col-md-4 social-block instagram">
+              <div class="text-center">
+                <i class="fa fa-instagram"></i>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.yelp.com/biz/the-naked-dog-hiking-boarding-and-training-austin">
+            <div class="col-md-4 social-block yelp">
+              <div class="text-center">
+                <i class="fa fa-yelp"></i>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/TheNakedDog">
+            <div class="col-md-4 social-block facebook">
+              <div class="text-center">
+                <i class="fa fa-facebook"></i>
+              </div>
+            </div>
+          </a>
         </div>
       </section>
+    </div>
+    <div class="footer text-center">
+      <div class="col-md-12">
+        <i class="fa fa-envelope-o"></i>
+        <a href="mailto:nakeddogaustin@gmail.com">nakeddogaustin@gmail.com</a>
+      </div>
+      <div class="col-md-12">
+        <i class="fa fa-phone"></i>
+        <a class="contact-phone" href="tel:1-512-623-0932">(512) 623-0932</a>
+      </div>
+      <div class="col-md-12">
+        <i class="fa fa-copyright"></i>
+        2017 by The Naked Dog
     </div>
   </body>
 </html>
