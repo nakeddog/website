@@ -11,11 +11,32 @@ body {
 
 }
 
+.background {
+  padding-bottom: 40px;
+}
+
 .brand-logo {
   height: 40px;
   width: 40px;
   padding-top: 0;
   margin-top: 5px;
+}
+
+.in-feed-photo {
+  width: 100%;
+  max-width: 750px;
+}
+
+.mt-4 {
+  margin-top: 4em !important;
+}
+
+.mt-2 {
+  margin-top: 2em !important;
+}
+
+.mt-1 {
+  margin-top: 1em !important;
 }
 
 .pt-0 {
@@ -27,7 +48,23 @@ body {
 }
 
 section {
-  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+section h1 {
+  font-weight: 900;
+}
+
+section h2 {
+  font-weight: 900;
+}
+
+section h3 {
+  font-weight: 900;
+}
+
+.registration-form-link {
+  margin-top: 15px;
 }
 
 .social-block {
@@ -72,6 +109,13 @@ section p {
 .banner {
   width: 100%;
   max-width: 1000px;
+}
+
+
+.gallery-photo {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
 }
 
 a.anchor {
