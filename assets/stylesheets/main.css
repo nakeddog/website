@@ -112,9 +112,10 @@ section p {
 }
 
 
-.gallery-photo {
+.gallery .gallery-photo {
   margin-top: 20px;
   width: 100%;
+  max-width: 750px;
   height: auto;
 }
 
