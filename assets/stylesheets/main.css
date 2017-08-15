@@ -119,6 +119,10 @@ section p {
   height: auto;
 }
 
+.contact-form {
+  padding: 30px 50px 0 50px;
+}
+
 a.anchor {
   display: block;
   position: relative;
