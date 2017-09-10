@@ -114,6 +114,11 @@ section p {
   margin-top: 100px;
 }
 
+.logo-banner {
+  width: 80%;
+  max-width: 500px;
+}
+
 .banner {
   width: 100%;
   max-width: 1000px;
