@@ -39,6 +39,14 @@ body {
   margin-top: 1em !important;
 }
 
+.ml-1 {
+  margin-left: 1em !important;
+}
+
+.ml-2 {
+  margin-left: 2em !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
