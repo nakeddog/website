@@ -3,20 +3,25 @@
   <head>
     <title>The Naked Dog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="assets/javascripts/script.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="/assets/javascripts/script.js" type="text/javascript"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -24,7 +29,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand pt-0" href="#">
-            <img src="assets/images/tnd-black-logo.png" class="brand-logo align-top" alt="">
+            <img src="/assets/images/tnd-black-logo.png" class="brand-logo align-top" alt="">
           </a>
           <a class="navbar-brand" href="#">
             The Naked Dog
@@ -41,8 +46,8 @@
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div class="content container">
       <div class="row text-center">
@@ -53,7 +58,7 @@
 
       <div class="row text-center mt-2">
         <div class="col-xs-12">
-          <img class="banner" src="assets/images/dog-lineup-bench-banner.jpg" />
+          <img class="banner" src="/assets/images/dog-lineup-bench-banner.jpg" />
         </div>
       </div>
 
@@ -67,7 +72,7 @@
           </p>
         </div>
         <div class="col-xs-12 text-center mt-4">
-          <img class="in-feed-photo" src="assets/images/water-crossing.jpg" />
+          <img class="in-feed-photo" src="/assets/images/water-crossing.jpg" />
         </div>
         <div class="col-xs-12 mt-4">
           <h3>Hiking</h3>
@@ -114,8 +119,8 @@
             set by the well-trained dogs in the group.
           </p>
         </div>
-          <img class="in-feed-photo" src="assets/images/sunshine-dog.jpg" />
         <div class="col-xs-12 col-md-6 text-center mt-1">
+          <img class="in-feed-photo" src="/assets/images/sunshine-dog.jpg" />
         </div>
 
       </section>
@@ -170,16 +175,90 @@
       </section>
     </div>
 
-    <section class="row gallery mt-4">
+    <section class="gallery mt-4">
       <a class="anchor" id="gallery"></a>
-
-      <div class="container-fluid">
-        <div class="text-center">
-          <img class="gallery-photo" src="assets/images/photo-op.jpg" />
-          <img class="gallery-photo" src="assets/images/rock-formation.jpg" />
-          <img class="gallery-photo" src="assets/images/trail-group.jpg" />
-          <img class="gallery-photo" src="assets/images/dogs-and-succulents.jpg" />
-          <img class="gallery-photo" src="assets/images/flying-v.jpg" />
+      <div class="grid-container">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+          <div class="gutter-sizer"></div>
+          <a href="/assets/images/gallery/at-the-barn.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/at-the-barn.jpg" />
+          </a>
+          <a href="/assets/images/gallery/bluebonnets.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/bluebonnets.jpg" />
+          </a>
+          <a href="/assets/images/gallery/capitol-building.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/capitol-building.jpg" />
+          </a>
+          <a href="/assets/images/gallery/climber.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/climber.jpg" />
+          </a>
+          <a href="/assets/images/gallery/dogs-and-succulents.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/dogs-and-succulents.jpg" />
+          </a>
+          <a href="/assets/images/gallery/dogs-on-rocks.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/dogs-on-rocks.jpg" />
+          </a>
+          <a href="/assets/images/gallery/flying-v.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/flying-v.jpg" />
+          </a>
+          <a href="/assets/images/gallery/group-waterfall.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/group-waterfall.jpg" />
+          </a>
+          <a href="/assets/images/gallery/harley-waterfall.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/harley-waterfall.jpg" />
+          </a>
+          <a href="/assets/images/gallery/hay-bales.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/hay-bales.jpg" />
+          </a>
+          <a href="/assets/images/gallery/howling.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/howling.jpg" />
+          </a>
+          <a href="/assets/images/gallery/in-a-tree.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/in-a-tree.jpg" />
+          </a>
+          <a href="/assets/images/gallery/jump-1.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/jump-1.jpg" />
+          </a>
+          <a href="/assets/images/gallery/jump-2.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/jump-2.jpg" />
+          </a>
+          <a href="/assets/images/gallery/looking-up.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/looking-up.jpg" />
+          </a>
+          <a href="/assets/images/gallery/on-path-with-leaves.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/on-path-with-leaves.jpg" />
+          </a>
+          <a href="/assets/images/gallery/photo-op.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/photo-op.jpg" />
+          </a>
+          <a href="/assets/images/gallery/small-but-excited.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/small-but-excited.jpg" />
+          </a>
+          <a href="/assets/images/gallery/sun-and-water.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/sun-and-water.jpg" />
+          </a>
+          <a href="/assets/images/gallery/two-happy-friends.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/two-happy-friends.jpg" />
+          </a>
+          <a href="/assets/images/gallery/water-and-speed.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/water-and-speed.jpg" />
+          </a>
+          <a href="/assets/images/gallery/waterfall-guards.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/waterfall-guards.jpg" />
+          </a>
+          <a href="/assets/images/gallery/with-allegra-1.jpg" class="grid-item" data-gallery="photo-gallery" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/with-allegra-1.jpg" />
+          </a>
+          <a href="/assets/images/gallery/with-allegra-2.jpg" class="grid-item" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/with-allegra-2.jpg" />
+          </a>
+          <a href="/assets/images/gallery/dogs-and-succulents.jpg" class="grid-item" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/dogs-and-succulents.jpg" />
+          </a>
+          <a href="/assets/images/gallery/flying-v.jpg" class="grid-item" data-toggle="lightbox">
+            <img class="gallery-photo" src="/assets/images/gallery/flying-v.jpg" />
+          </a>
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ html {
 }
 
 body {
-
+  width: 100%;
 }
 
 .background {
@@ -126,10 +126,7 @@ section p {
 
 
 .gallery .gallery-photo {
-  margin-top: 20px;
   width: 100%;
-  max-width: 750px;
-  height: auto;
 }
 
 .contact-form {
@@ -166,4 +163,35 @@ a.anchor {
 .footer a {
   color: #eee;
   text-decoration: none;
+}
+
+/* 3 columns by default */
+.grid { width: 100% }
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-container {
+  width: 100%;
+  padding: 0 15px;
+}
+.grid {
+  width: 100%;
+}
+
+/* default two columns */
+.grid-sizer { width: 48%; }
+.gutter-sizer { width: 4%; }
+.grid-item  {
+  width: 48%;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  /* 3 columns for larger screens */
+  .grid-sizer { width: 32%; }
+  .grid-item { width: 32%; }
+  .gutter-sizer { width: 2%; }
 }
