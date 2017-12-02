@@ -39,11 +39,14 @@ function initMap() {
     // Pecos and 35th
     { lat: 30.3135299, lng: -97.7671411 },
 
-    // 35th and Mopac
-    { lat: 30.3067146, lng: -97.7581918 },
+    // Mt Bonnell Road, corner following river
+    { lat: 30.31580248, lng: -97.77443647 },
 
-    // 2222 and Mopac,
-    { lat: 30.3353004, lng: -97.7553388 },
+    // Mt. Bonnell Road and 2222
+    { lat: 30.34117635, lng: -97.77885675 },
+
+    // 2222 and Mountainclimbd Dr.
+    { lat: 30.34247265, lng: -97.76287079 },
 
     // koenig and 35,
     { lat: 30.3214191, lng: -97.7075224 },
